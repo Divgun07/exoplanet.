@@ -75,8 +75,8 @@ planet_masses = []
 planet_radiuses = []
 planet_names = []
 for planet_data in planet_data_rows:
-  planet_masses.append(planet_data[3][0])
-  planet_radiuses.append(planet_data[7][0])
+  planet_masses.append(planet_data[3])
+  planet_radiuses.append(planet_data[7])
   planet_names.append(planet_data[1])
 planet_gravity = []
 for index, name in enumerate(planet_names):
